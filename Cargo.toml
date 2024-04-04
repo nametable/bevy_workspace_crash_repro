@@ -1,7 +1,2 @@
-[package]
-name = "bevy_workspace_crash_repro"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-bevy = "0.13"
+[workspace]
+members = ["crates/bevy_test_crate"]
